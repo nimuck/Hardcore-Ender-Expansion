@@ -1,3 +1,7 @@
 plugins {
     id 'com.gtnewhorizons.gtnhconvention'
 }
+
+dependencies {
+    compileOnly rfg.deobf(files("libs/deathlyhallows-1.1.8-modified.jar"))
+}
